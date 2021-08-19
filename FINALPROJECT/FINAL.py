@@ -7,9 +7,7 @@ from PIL import Image
 # Poltly used instead of mathplotlib, they are basically the same, but plotly is aesthetically superior in my opinion and I use the same skills I applied on HW3
 
 # add your directory for skyscrapers.xlsx here
-FILE = '
-StreamlitApp//FINALPROJECT//
-skyscrapers.xlsx'
+FILE = 'StreamlitApp//FINALPROJECT//skyscrapers.xlsx'
 
 # USEFUL DATA FRAMES, ONE GENERAL DF, THE OTHER TO COMPARE SIZES (ALL COUNTRIES)
 df = pd.read_excel(FILE, usecols=[0, 1, 3, 4, 5, 6])
